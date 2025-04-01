@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 1vw;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.main-header{
+  margin-top: 1rem;
+  background-color: aquamarine;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.add-task{
+  width: 25rem;
+  height: auto;
+}
+textarea{
+  width: 100%;
+  height: 5rem;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.second-header{
+  background-color: rgba(0, 0, 255, 0.795);
+  text-align: center;
+  padding: 10px;
+}
+.buttons> button{
+  padding: 10px;
+}
+.buttons > .add-btn{
+  background-color: rgb(34, 194, 34);
+}
+.buttons > .clr-btn{
+  background-color: red;
+  color: wheat;
+}
+
+.tasks{
+  font-size: larger;
+  list-style:circle;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.del-btn{
+  margin-left: 0.6rem;
+  background-color: red;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.up-btn{
+  padding: 5px;
+  background-color: greenyellow;
+}
+
+.dwn-btn{
+  margin-left: 0.3rem;
+  padding: 5px;
+  background-color: brown;
+}
